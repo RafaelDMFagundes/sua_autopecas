@@ -1,0 +1,68 @@
+.body{
+              margin-left:auto
+              margin-right:auto
+               
+              width:75em
+}
+  /* carrossel */
+        .d-flex{
+              margin-top: -60px;
+              right:0px;
+              position: absolute;
+}
+        img{
+              width:auto; height: 400px; 
+              
+              margin-bottom: 60px;
+}
+   /* Parte do logo */
+        .titulo{
+             margin-top: -70px;
+             height: 300px;
+             
+             
+}
+         .logo{
+            background: blue;
+            height: 200px;
+}
+   /* Fotos destaque */
+
+   .rounded{
+        margin-top: 80px;
+        width: 228px;
+        height: 228px;
+        margin-right: 50px;
+        margin-left: 50px;
+        border: solid 1px #F5F5F5;
+        border-width: 30px;
+        
+    
+   }
+   .rounded_carr{
+        margin-top: 30px;
+        width: 228px;
+        height: 228px;
+        margin-right: 50px;
+        margin-left: 50px;
+        border: solid 1px #F5F5F5;
+        border-width: 30px;
+   }
+   .bordas{
+        height: 400px
+   }
+   
+   /* Texto Destaque */
+   .destaque{
+        margin-top: 50px;
+        text-align: center;
+   }
+   .comando_meriva{
+        margin-left: 50px;
+        margin-top: -80px;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-style: italic;
+   }
+
+
