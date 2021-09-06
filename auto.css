@@ -4,9 +4,14 @@
                
               width:75em
 }
-  /* carrossel */
+
+/* setor section */
+     section{
+          background: #DCDCDC;
+     }
+  /* carrossel principal */
         .d-flex{
-              margin-top: -60px;
+              margin-top: -70px;
               right:0px;
               position: absolute;
 }
@@ -24,14 +29,87 @@
 }
          .logo{
             background: blue;
-            height: 200px;
+            height: 210px;
 }
+/* textos header */
+     .h5_header{
+          font-weight: bold;
+          color: white;
+          margin-left: 500px;
+          margin-top: 10px;
+          position: absolute;
+
+     }
+     .h5_header2{
+          font-weight: bold;
+          color: white;
+          margin-left: 500px;
+          margin-top: 65px;
+          position: absolute;
+     }
+/* fotos header */
+     .card-img-top2{
+          width: 50px;
+          height: 50px;
+          margin-left: 435px;
+          position: absolute;
+          margin-top: 7px
+     }
+     .card-img-top3{
+          width: 50px;
+          height: 50px;
+          margin-left: 435px;
+          position: absolute;
+          margin-top: 55px
+     }
+   .fotos-header{
+        width: 100px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 20px;
+        display: inline-block;
+        margin-top: 40px;
+        float: right;
+        padding: 40px;
+
+   }
+   .card1{
+        width: 125px;
+        height: px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        margin-top: 40px;
+        float: right;
+        background: #6495ED;
+  }
+   .card-img-top1{
+        width: 100px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        margin-top: px;
+        float: right;
+   }
+   .card1:hover{
+          background: #483D8B;
+   }
+
+   /* textos fotos header */
+   .card-text1{
+          font-family: sans-serif;
+          font-size: 15px;
+          font-weight: bold;
+          color: white;
+   }
+   }
    /* Fotos destaque */
 
    .rounded{
         margin-top: 80px;
-        width: 228px;
-        height: 228px;
+        width: 450px;
+        height: 400px;
         margin-right: 50px;
         margin-left: 50px;
         border: solid 1px #F5F5F5;
@@ -41,15 +119,29 @@
    }
    .rounded_carr{
         margin-top: 30px;
-        width: 228px;
-        height: 228px;
+        width: 450px;
+        height: 400px;
         margin-right: 50px;
         margin-left: 50px;
         border: solid 1px #F5F5F5;
         border-width: 30px;
    }
-   .bordas{
-        height: 400px
+   .card-text{
+        text-align: center;
+   }
+   .card-title{
+        text-align: center;
+   }
+   .btn{
+        padding: 10px;
+        margin-left: 40px;
+   }
+   /* setor promoções */
+   .card{
+          display: inline-block;
+          width: 228px;
+          margin-top: 30px;
+          margin-left: 35px;
    }
    
    /* Texto Destaque */
@@ -57,12 +149,10 @@
         margin-top: 50px;
         text-align: center;
    }
-   .comando_meriva{
-        margin-left: 50px;
-        margin-top: -80px;
-        font-size: 20px;
-        font-family: sans-serif;
-        font-style: italic;
-   }
+   /* setor footer */
+     footer{
+          margin-top: 100px;
+     }
+
 
 
